@@ -1,0 +1,43 @@
+.popup-more-info {
+	position: relative;
+	background: #FFF;
+	padding: 20px;
+	width: auto;
+	max-width: 500px;
+	margin: 20px auto;
+}
+
+.popup-send-code{
+	position: relative;
+	background: #FFF;
+	padding: 20px;
+	width: auto;
+	max-width: 500px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+.popup-privacy{
+	position: relative;
+	background: #FFF;
+	padding: 20px;
+	width: auto;
+	max-width: 50%;
+	height: 400px;
+	margin: 20px auto;
+	overflow:auto;
+}
+
+.mfp-container {
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding: 0 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.8);
+}

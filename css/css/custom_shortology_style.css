@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ////////////////////////////////////// */
+        /* style personalizzato */
+/* ////////////////////////////////////// */
+body { text-align:justify;}
+
+hr { border:0px; width:100%; height:34px; background-image: url(../images/hr.png);
+background-position:center center;
+background-repeat:no-repeat; margin:20px 0px;}
+
+
+/* SLIDER */
+.flexslider .slides img { max-width:100%; height:auto;}
+html.csstransforms body.home div#intro div#flexslider_0.flexslider ul.slides li { text-align:center;}
+html.csstransforms body.home div#intro div#flexslider_0.flexslider ul.slides li img { margin:0px auto; position:relative;}
+
+
+.half { width:50%; float:left; margin-bottom:20px;}
+
+.half ul { list-style:disc; margin:0px 30px 0px 20px;}
+
+.half_txt { width:46%; float:left;  padding:0% 2%;}
+
+#fade2black { background-image:url(../images/fade2black.png); background-repeat:repeat; padding:30px 50px;
+text-shadow:1px 1px 0px #000;}
+
+iframe { max-width:100%; min-height:300px height:auto; border:5px solid #fff;}
+
+
+
+
+
+div#home div.title div.container h3 { font-size:220%; font-weight:bold;
+color:#fff; text-shadow:2px 2px 1px #000;}
+
+div#home div.title div.container h4 { color:#fff;font-weight:bold; text-shadow:1px 1px 1px #000;}
+
+div.container p a { color:#fff;}

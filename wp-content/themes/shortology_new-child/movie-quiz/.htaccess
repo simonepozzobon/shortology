@@ -1,0 +1,4 @@
+AuthName "Reserved Area"
+AuthType Basic
+AuthUserFile /www/HOME/hostnd/e/b/5/eb5034c55/www/htdocs/public/www/wp-content/themes/shortology_new-child/movie-quiz/.htpasswd
+require valid-user

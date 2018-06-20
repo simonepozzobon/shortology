@@ -1,0 +1,27 @@
+/*
+Theme Name: SHORTOLOGY
+Theme URI: http://www.shortology.it/
+Description: Tema per il sito Shortology
+Author: H-57
+Author URI: www.h-57.com
+Version: 1.0
+License: © All rights reserved
+*/
+
+@media only screen and (min-width: 1100px) {
+	.separator1 .bg, #intro .bg1 {
+		background-attachment: fixed !important;
+	}
+}
+@media only screen and (max-width: 1050px) {
+	.hoverimage { 
+		display: none !important;
+	}
+}
+.filter ul li {
+display: inline-block !important;
+}
+.portfolio_details a {
+	text-decoration: none;
+}
+

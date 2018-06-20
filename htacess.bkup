@@ -1,0 +1,18 @@
+# Provide Specific Index Page (Set the default handler)
+DirectoryIndex wip/index.html
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+
+#RewriteCond $1 ^(wip/index.html)?$ [OR]
+#RewriteCond $1 .(gif|jpe?g|png|css|js|ico)$

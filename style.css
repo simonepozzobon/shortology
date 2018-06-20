@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0px; padding:0px;}
+
+img, img a, a { border:0px;}
+
+body { background-image:url(images/bkg_page.png);
+background-position:top left;
+background-repeat:repeat-x;}
+
+#wrapper { width:996px; margin:0px auto;}

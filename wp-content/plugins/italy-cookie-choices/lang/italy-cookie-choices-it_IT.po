@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: italy-cookie-choices\n"
+"POT-Creation-Date: 2015-05-31 12:25+0100\n"
+"PO-Revision-Date: 2015-05-31 12:28+0100\n"
+"Last-Translator: Enea Overclokk <info@overclokk.net>\n"
+"Language-Team: info@overclokk.net\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+
+#: italy-cookie-choices.php:130
+msgid "Italy Cookie Choices Dashboard"
+msgstr "Pannello di Italy Cookie Choices"
+
+#: italy-cookie-choices.php:144
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai abbastanza permessi per visualizzare questa pagina."
+
+#: italy-cookie-choices.php:209
+msgid "Italy Cookie Choices options page"
+msgstr "Pagina opzioni per Italy Cookie Choices"
+
+#: italy-cookie-choices.php:219
+msgid "Activate"
+msgstr "Attiva"
+
+#: italy-cookie-choices.php:231
+msgid "Where display the banner"
+msgstr "Dove mostrare il banner"
+
+#: italy-cookie-choices.php:242
+msgid "Mouse scroll event"
+msgstr "Evento scroll del mouse"
+
+#: italy-cookie-choices.php:253
+msgid "Refresh page"
+msgstr "Aggiorna la pagina"
+
+#: italy-cookie-choices.php:264
+msgid "Text to display"
+msgstr "Testo da mostrare"
+
+#: italy-cookie-choices.php:275
+msgid "URL for cookie policy"
+msgstr "URL per la cookie policy"
+
+#: italy-cookie-choices.php:286
+msgid "Anchor text for URL"
+msgstr "Anchor text per la URL"
+
+#: italy-cookie-choices.php:297
+msgid "Button text"
+msgstr "Testo per il bottone"
+
+#: italy-cookie-choices.php:308
+msgid "Style settings"
+msgstr "Impostazioni per lo stile"
+
+#: italy-cookie-choices.php:318
+msgid "HTML top margin"
+msgstr "Margine alto per HTML"
+
+#: italy-cookie-choices.php:329
+msgid "Advanced settngs"
+msgstr "Opzioni avanzate"
+
+#: italy-cookie-choices.php:339
+msgid "Cookie name"
+msgstr "Nome del Cookie"
+
+#: italy-cookie-choices.php:350
+msgid "Cookie value"
+msgstr "Valore del Cookie"
+
+#: italy-cookie-choices.php:361
+msgid "Cookie policy page slug"
+msgstr "Slug pagina Cookie policy"
+
+#: italy-cookie-choices.php:372
+msgid "Open policy in new page"
+msgstr "Apri in una nuova pagina"
+
+#: italy-cookie-choices.php:397
+msgid "Customize your banner for cookie law"
+msgstr "Personalizza il banner per la Cookie Law"
+
+#: italy-cookie-choices.php:412
+msgid "Display banner for Cookie Law in front-end"
+msgstr "Visualizza il banner nel front-end"
+
+#: italy-cookie-choices.php:432
+msgid "Top Bar (Default, Display a top bar wth your message)"
+msgstr "Top Bar (Default, verrà visualizzata una barra in cima alla pagina)"
+
+#: italy-cookie-choices.php:440
+msgid "Dialog (Display an overlay with your message)"
+msgstr "Dialog (Visualizza un popup con il tuo messaggio)"
+
+#: italy-cookie-choices.php:458
+msgid "Accepts disclosures on mouse scroll event"
+msgstr "Accetta l'informativa sull'evento scroll del mouse"
+
+#: italy-cookie-choices.php:476
+msgid "Refresh page after button click"
+msgstr ""
+"Aggiorna la pagina dopo il click sul link di accettazione (Usare con "
+"parsimonia se hai il sito molto lento, es 5'')"
+
+#: italy-cookie-choices.php:491
+msgid "Your short cookie policy"
+msgstr "La tua informativa breve"
+
+#: italy-cookie-choices.php:494
+msgid ""
+"People will see this notice only the first time that they enter your site"
+msgstr ""
+"Le persone visualizzeranno il messaggio la prima volta che visiteranno il "
+"tuo sito"
+
+#: italy-cookie-choices.php:508
+msgid "e.g. http://www.aboutcookies.org/"
+msgstr "es: http://www.aboutcookies.org/"
+
+#: italy-cookie-choices.php:511
+msgid "Insert here the link to your policy page"
+msgstr "Inserisci il link alla tua pagina con l'informativa estesa"
+
+#: italy-cookie-choices.php:525
+msgid "e.g. More Info"
+msgstr "es: Maggiori informazioni"
+
+#: italy-cookie-choices.php:528
+msgid "Insert here anchor text for the link"
+msgstr "Inserisci qui l'anchor text per il link"
+
+#: italy-cookie-choices.php:542
+msgid "e.g. Close"
+msgstr "es: Chiudi"
+
+#: italy-cookie-choices.php:545
+msgid "Insert here name of button (e.g. \"Close\") "
+msgstr "Inserisci il testo del link per chiudere il popup/banner (es: Chiudi)"
+
+#: italy-cookie-choices.php:562
+msgid "Customize your style settings"
+msgstr "Personalizza le impostazioni per lo stile"
+
+#: italy-cookie-choices.php:578
+msgid "Add a page top margin for info top bar"
+msgstr "Aggiunge un margine nella parte alta della pagine solo per la topbar"
+
+#: italy-cookie-choices.php:596
+msgid "Customize your advanced settings"
+msgstr "Personalizza le impostazioni avanzate"
+
+#: italy-cookie-choices.php:612
+msgid "Insert your cookie name (Default: displayCookieConsent)"
+msgstr "Inserisci il nome del tuo Cookie (Default: displayCookieConsent)"
+
+#: italy-cookie-choices.php:631
+msgid "Insert your cookie value (Default: y)"
+msgstr "Inserisci il valore del tuo Cookie (Default: y)"
+
+#: italy-cookie-choices.php:647
+msgid "e.g. your-policy-url.html"
+msgstr "es: la-tua-pagina-per-la-cookie-policy"
+
+#: italy-cookie-choices.php:650
+msgid ""
+"Insert your cookie policy page slug (e.g. your-policy-url), it will display "
+"only topbar in your cookie policy page"
+msgstr ""
+"Inserisci lo slug della tua pagina per la Cookie policy, in questa pagina "
+"verrà mostrata soltanto la topbar"
+
+#: italy-cookie-choices.php:670
+msgid "Open your cookie policy page in new one"
+msgstr "Apri la tua pagina per la Cookie policy in una nuova"
+
+#: italy-cookie-choices.php:723
+msgid "Cookie name field it can't be empty. Restored default name."
+msgstr ""
+"Il campo del nome del Cookie non può essere vuoto. Ripristinato il nome di "
+"default."
+
+#: italy-cookie-choices.php:730
+msgid "Cookie value field it can't be empty. Restored default value."
+msgstr ""
+"Il campo del valore del Cookie non può essere vuoto. Ripristinato il valore "
+"di default."
+
+#~ msgid "More Info"
+#~ msgstr "Più info"
