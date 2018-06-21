@@ -20,7 +20,6 @@ mix
     //     jquery: ['$', 'jQuery', 'jquery'],
     //     tether: ['Tether'],
     // })
-    .sass('wp-content/themes/shortology_new-child/scss/overlay.scss', 'wp-content/themes/shortology_new-child/overlay-testology.css')
     .js('resources/js/overlay.js', 'wp-content/themes/shortology_new-child/js/testology-overlay.js')
     .browserSync({
         proxy: 'http://shortology.test',
