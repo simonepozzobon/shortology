@@ -32,6 +32,10 @@ get_header(); ?>
         <div class="logoHead" style="background-color:#b9d9de; text-align:center;">
           <img src="/wp-content/themes/shortology_new-child/images/logoHead.jpg" alt="Shortology"/>
     	</div>
+    <div id="testology-wrapper">
+        <overlay></overlay>
+    </div>
+    <script src="/wp-content/themes/shortology_new-child/js/testology-overlay.js"></script>
     <?php
     if ( ( $locations = get_nav_menu_locations() ) && $locations['top-menu'] ) {
         $menu = wp_get_nav_menu_object( $locations['top-menu'] );

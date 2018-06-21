@@ -11,9 +11,14 @@
 */
 
 @import url("../shortology_new/style.css");
+@import url("overlay-testology.css");
 
-/* =Theme customization starts here
--------------------------------------------------------------- */
+/*
+
+  Theme customization starts here
+  --------------------------------------------------------------
+
+*/
 
 p, body {
   font-family: 'Oswald', sans-serif !important;
@@ -50,7 +55,7 @@ p, body {
 
 .fb-like iframe {
   max-width: inherit;
-  z-index: 9999;
+  z-index: 1000;
 }
 
 .ig img {
@@ -1092,7 +1097,7 @@ p.post-info {
   }
   .fb-like iframe {
     max-width: inherit;
-    z-index: 999999999;
+    z-index: 1000;
   }
   .posters {
     width: 630px;
@@ -1233,7 +1238,7 @@ p.post-info {
   }
   .fb-like iframe {
     max-width: inherit;
-    z-index: 999999999;
+    z-index: 1000;
   }
   .posters {
     width: 305px;
@@ -1337,5 +1342,5 @@ p.post-info {
 }
 
 #cookieChoiceInfo span {
-  display: block;
+  display: flex;
 }
