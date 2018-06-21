@@ -1,6 +1,6 @@
-<?php 
+<?php
 get_header();
-the_post(); 
+the_post();
 $thumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID) )
 ?>
  <div class="bg dark-bg" style="text-align: left" id="blog">
@@ -28,14 +28,14 @@ $thumbnail = wp_get_attachment_url( get_post_thumbnail_id($post->ID) )
                         <p class="post-info">
                             <?php
                             _e('by', 'SCRN'); echo ' '; the_author_posts_link(); echo ' ';
-                             _e('on', 'SCRN'); echo ' '; the_time("d M, Y"); 
+                             _e('on', 'SCRN'); echo ' '; the_time("d M, Y");
                             ?>
                         </p>
                     </a>
                 </div>
                 <?php the_content();?>
-                <?php 
-                edit_post_link(); 
+                <?php
+                edit_post_link();
                 echo '<br />';
                 ?>
             </div> <!-- end post -->
