@@ -18,3 +18,7 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 
 /node_modules
+/resources
+webpack.mix.js
+package.json
+mix-manifest.json
