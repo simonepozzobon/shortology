@@ -129,6 +129,18 @@ $spacer: 1rem;
                 > .call {
                     font-size: 16px;
                     line-height: 1;
+
+                    @media (max-width: 960px) and (min-width: 830px) {
+                        font-size: 14px;
+                    }
+
+                    @media (max-width: 829px) and (min-width: 700px) {
+                        font-size: 12px;
+                    }
+
+                    @media (max-width: 699px) and (min-width: 640px) {
+                        font-size: 11px;
+                    }
                 }
 
             }
@@ -180,6 +192,28 @@ $spacer: 1rem;
             font-weight: 500;
             padding: 16px 32px;
             border: 0;
+        }
+    }
+
+    @media (max-width: 640px) {
+        > .top-row {
+            display: none;
+        }
+
+        > .center-row {
+            flex-direction: column;
+            width: 100%;
+
+            > .column {
+                height: 33.3333%;
+                width: 100%;
+
+                &.center {
+                    img {
+                        max-height: 33.3333vh;
+                    }
+                }
+            }
         }
     }
 }
